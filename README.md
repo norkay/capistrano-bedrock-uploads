@@ -5,7 +5,7 @@
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'bedrock-capistrano-uploads', '~> 0.0.1'
+gem 'capistrano-bedrock-uploads', '~> 0.0.1'
 ```
 
 And then execute:
@@ -14,17 +14,17 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install bedrock-capistrano-uploads
+    $ gem install capistrano-bedrock-uploads
 
 ## Usage
 
 Require the module in your `Capfile`:
 
 ```ruby
-require 'bedrock-capistrano-uploads'
+require 'capistrano/bedrock/uploads'
 ```
 
-`bedrock-capistrano-uploads` comes with one task:
+`capistrano-bedrock-uploads` comes with one task:
 
 * uploads:sync
 
